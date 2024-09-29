@@ -1,4 +1,6 @@
-const LayoutContainer = ({ children }) => {
+import { clsx } from "../utils/common";
+
+const LayoutContainer = ({ children, data = { navs: [] } }) => {
   return (
     <div id="colorlib-page">
       <div className="container-wrap">
@@ -15,96 +17,34 @@ const LayoutContainer = ({ children }) => {
         <aside
           id="colorlib-aside"
           role="complementary"
-          className="border js-fullheight"
+          className="js-fullheight"
         >
           <div className="text-center">
             <div
               className="author-img"
-              style={{ backgroundImage: "url(images/about.jpg)" }}
+              style={{ backgroundImage: data.profileImg }}
             />
             <h1 id="colorlib-logo">
-              <a href="index.html">Jackson Ford</a>
+              <a href="#">{data.name}</a>
             </h1>
             <span className="position">
-              <a href="#">UI/UX/Designer</a> in Philippines
+              <a href="#">{data.role}</a> {data.location}
             </span>
           </div>
           <nav id="colorlib-main-menu" role="navigation" className="navbar">
             <div id="navbar" className="collapse">
               <ul>
-                <li className="active">
-                  <a href="#" data-nav-section="home">
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="#" data-nav-section="about">
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a href="#" data-nav-section="services">
-                    Services
-                  </a>
-                </li>
-                <li>
-                  <a href="#" data-nav-section="skills">
-                    Skills
-                  </a>
-                </li>
-                <li>
-                  <a href="#" data-nav-section="education">
-                    Education
-                  </a>
-                </li>
-                <li>
-                  <a href="#" data-nav-section="experience">
-                    Experience
-                  </a>
-                </li>
-                <li>
-                  <a href="#" data-nav-section="work">
-                    Work
-                  </a>
-                </li>
-                <li>
-                  <a href="#" data-nav-section="blog">
-                    Blog
-                  </a>
-                </li>
-                <li>
-                  <a href="#" data-nav-section="contact">
-                    Contact
-                  </a>
-                </li>
+                {data.navs.map((nav, i) => (
+                  <li className={clsx({ active: i === 0 })} key={nav}>
+                    <a href="#" data-nav-section={nav.toLowerCase()}>
+                      {nav}
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
           </nav>
           <div className="colorlib-footer">
-            <p>
-              <small>
-                ©{" "}
-                {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                Copyright All rights reserved. Made with{" "}
-                <i className="icon-heart" aria-hidden="true" /> by{" "}
-                <a href="https://colorlib.com" target="_blank">
-                  Colorlib
-                </a>
-                {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}{" "}
-                <span>
-                  Distributed by{" "}
-                  <a href="https://themewagon.com" target="_blank">
-                    ThemeWagon
-                  </a>
-                </span>{" "}
-                <span>
-                  Demo Images:{" "}
-                  <a href="https://unsplash.com/" target="_blank">
-                    Unsplash.com
-                  </a>
-                </span>
-              </small>
-            </p>
             <ul>
               <li>
                 <a href="#">

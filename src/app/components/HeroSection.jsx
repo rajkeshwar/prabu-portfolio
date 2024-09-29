@@ -12,16 +12,7 @@ const HeroSection = ({ data = { slides: [] } }) => {
                     <div className="slider-text-inner js-fullheight">
                       <div className="desc">
                         <h1 dangerouslySetInnerHTML={{ __html: slide.iam }} />
-                        <h2>
-                          {slide.desc}
-                          <a
-                            className="ml-2"
-                            href="https://colorlib.com/"
-                            target="_blank"
-                          >
-                            {slide.meta}
-                          </a>
-                        </h2>
+                        <h2>{slide.desc}</h2>
                         <p>
                           <a className="btn btn-primary btn-learn">
                             {slide.download} <i className="icon-download4" />

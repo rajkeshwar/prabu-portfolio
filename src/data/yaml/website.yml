@@ -4,14 +4,34 @@ email: ramachandraprabu@gmail.com
 website: https://www.prabu.com
 address: 198 West 21th Street, Suite 721 New York NY 10016
 
+sidenav:
+  profileImg: url(images/prabu.jpg)
+  name: Ramachandra Prabu Muralimohan
+  role: Engineering Manager
+  location: in Singapore
+  navs:
+    - Home
+    - About
+    - Services
+    - Skills
+    - Education
+    - Experience
+    - Work
+    - Blog
+    - Contact
+
 hero:
   slides:
     - iam: Hi! I'm Ramachandra Prabu Muralimohan
-      desc: 100% html5 bootstrap templates Made by
+      desc: Established Senior Technology Leader with 17 years of global experience 
+        driving digital transformation, UI/UX architecture, DevOps engineering, 
+        and project delivery across banking, financial services, education, 
+        and healthcare sectors, specializing in front-end frameworks, cloud computing, 
+        and agile methodologies.
       meta: colorlib.com
       download: Download CV
       bgImage: url(images/img_bg_1.jpg)
-    - iam: I am <br /> a Designer
+    - iam: I am <br /> a Senior Technology Leader
       desc: 100% html5 bootstrap templates Made by
       meta: prabu.com
       download: View Portfolio
@@ -93,7 +113,7 @@ skills:
 
 education:
   meta: Education
-  title: Education
+  heading: Education
   accordions:
     - title: Master Degree Graphic Design
       desc: Far far away, behind the word mountains, far from
@@ -183,4 +203,3 @@ contact:
       icon: icon-map
     - title: +65 9370 4457
       icon: icon-phone
-
