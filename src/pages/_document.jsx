@@ -29,17 +29,6 @@ export default function Document() {
         <link rel="stylesheet" href="css/owl.carousel.min.css" />
         <link rel="stylesheet" href="css/owl.theme.default.min.css" />
         <link rel="stylesheet" href="css/style.css" />
-
-        <script src="js/jquery.min.js" />
-        <script src="js/bootstrap.min.js" />
-        <script src="js/jquery.flexslider-min.js" />
-        <script src="js/modernizr-2.6.2.min.js" />
-        <script src="js/google_map.js" />
-        <script src="js/owl.carousel.min.js" />
-        <script src="js/jquery.countTo.js" />
-        <script src="js/jquery.waypoints.min.js" />
-        <script src="js/respond.min.js" />
-        <script src="js/jquery.easing.1.3.js" />
       </Head>
       <body>
         <Main />
