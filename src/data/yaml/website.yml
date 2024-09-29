@@ -1,0 +1,186 @@
+title: Ramachandra Prabu Muralimohan
+phone: +65 9370 4457
+email: ramachandraprabu@gmail.com
+website: https://www.prabu.com
+address: 198 West 21th Street, Suite 721 New York NY 10016
+
+hero:
+  slides:
+    - iam: Hi! I'm Ramachandra Prabu Muralimohan
+      desc: 100% html5 bootstrap templates Made by
+      meta: colorlib.com
+      download: Download CV
+      bgImage: url(images/img_bg_1.jpg)
+    - iam: I am <br /> a Designer
+      desc: 100% html5 bootstrap templates Made by
+      meta: prabu.com
+      download: View Portfolio
+      bgImage: url(images/img_bg_2.jpg)
+
+about:
+  paragraphs:
+    - <strong>Hi I'm Jackson Ford</strong> On her way she met a
+      copy. The copy warned the Little Blind Text, that where it
+      came from it would have been rewritten a thousand times and
+      everything that was left from its origin would be the word
+      "and" and the Little Blind Text should turn around and
+      return to its own, safe country.
+    - Even the all-powerful Pointing has no control about the
+      blind texts it is an almost unorthographic life One day
+      however a small line of blind text by the name of Lorem
+      Ipsum decided to leave for the far World of Grammar.
+  cards:
+    - icon: icon-bulb
+      title: Graphic Design
+    - icon: icon-globe-outline
+      title: Web Design
+    - icon: icon-data
+      title: Software
+    - icon: icon-phone3
+      title: Application
+  yellow:
+    h2: I am happy to know you <br /> that 300+ projects done sucessfully!
+    link: Hire me
+
+services:
+  whatIdo: What I do?
+  expertise: Here are some of my expertise
+  cards:
+    - icon: icon-bulb
+      title: Innovative Ideas
+      desc: Separated they live in Bookmarksgrove right at the coast of the Semantics
+
+    - icon: icon-data
+      title: Software
+      desc: Separated they live in Bookmarksgrove right at the coast of the Semantics
+
+    - icon: icon-phone3
+      title: Application
+      desc: Separated they live in Bookmarksgrove right at the coast of the Semantics
+
+    - icon: icon-layers2
+      title: Graphic Design
+      desc: Separated they live in Bookmarksgrove right at the coast of the Semantics
+
+    - icon: icon-data
+      title: System Design
+      desc: Separated they live in Bookmarksgrove right at the coast of the Semantics
+
+    - icon: icon-phone3
+      title: Management
+      desc: Separated they live in Bookmarksgrove right at the coast of the Semantics
+
+skills:
+  meta: My Specialty
+  heading: My Skills
+  desc:
+    The Big Oxmox advised her not to do so, because there were thousands of bad Commas,
+    wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
+    She packed her seven versalia, put her initial into the belt and made herself on the way.
+  progress:
+    - title: Photoshop
+      percentage: 75
+    - title: jQuery
+      percentage: 60
+    - title: HTML
+      percentage: 85
+    - title: CSS3
+      percentage: 90
+    - title: WordPress
+      percentage: 70
+    - title: SEO
+      percentage: 80
+
+education:
+  meta: Education
+  title: Education
+  accordions:
+    - title: Master Degree Graphic Design
+      desc: Far far away, behind the word mountains, far from
+        the countries Vokalia and Consonantia, there live
+        the blind texts.
+    - title: Bachelor Degree of Computer Science
+      desc: Far far away, behind the word mountains, far from
+        the countries Vokalia and Consonantia, there live
+        the blind texts.
+    - title: Diploma in Information Technology
+      desc: Far far away, behind the word <strong>mountains</strong>,
+        far from the countries Vokalia and Consonantia, there live the blind texts.
+        Separated they live in Bookmarksgrove right at the coast of the Semantics,
+        a large language ocean.
+    - title: High School Secondary Education
+      desc: Far far away, behind the word mountains, far from
+        the countries Vokalia and Consonantia, there live
+        the blind texts.
+
+experience:
+  meta: Experience
+  title: Experience
+  timelines:
+    - title: Full Stack Developer
+      date: 2017-2018
+      desc: Tolerably earnestly middleton extremely distrusts she boy now not.
+        Add and offered prepare how cordial two promise. Greatly who affixed
+        suppose but enquire compact prepare all put. Added forth chief trees
+        but rooms think may.
+    - title: Front End Developer at Google Company
+      date: 2017-2018
+      desc: Even the all-powerful Pointing has no control about the blind texts
+        it is an almost unorthographic life One day however a small line of blind
+        text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+    - title: System Analyst
+      date: 2017-2018
+      desc: Tolerably earnestly middleton extremely distrusts she boy now not.
+        Add and offered prepare how cordial two promise. Greatly who affixed
+        suppose but enquire compact prepare all put. Added forth chief trees
+        but rooms think may.
+    - title: Creative Designer
+      date: 2017-2018
+      desc: Even the all-powerful Pointing has no control about the blind texts
+        it is an almost unorthographic life One day however a small line of blind
+        text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+    - title: UI/UX Designer at Envato
+      date: 2017-2018
+      desc: Even the all-powerful Pointing has no control about the blind texts
+        it is an almost unorthographic life One day however a small line of blind
+        text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+
+work:
+  meta: My Work
+  heading: Recent Work
+  categories:
+    - Graphic Design
+    - Web Design
+    - Software
+    - Apps
+  works:
+    - title: Work 01
+      meta: Website
+      bgImage: url(images/img-1.jpg)
+    - title: Work 02
+      meta: Animation
+      bgImage: url(images/img-2.jpg)
+    - title: Work 03
+      meta: Illustration
+      bgImage: url(images/img-3.jpg)
+    - title: Work 04
+      meta: Application
+      bgImage: url(images/img-4.jpg)
+    - title: Work 05
+      meta: Graphic, Logo
+      bgImage: url(images/img-5.jpg)
+    - title: Work 06
+      meta: Web Design
+      bgImage: url(images/img-6.jpg)
+
+contact:
+  meta: Get in Touch
+  heading: Contact
+  contacts:
+    - title: ramachandraprabu@gmail.com
+      icon: icon-globe-outline
+    - title: 198 West 21th Street, Suite 721 New York NY 10016
+      icon: icon-map
+    - title: +65 9370 4457
+      icon: icon-phone
+
